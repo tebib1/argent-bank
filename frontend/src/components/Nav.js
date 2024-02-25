@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div>
      <nav class="main-nav">
-      <Link class="main-nav-logo" to="./">
+      <Link class="main-nav-logo" to="/">
         <img
           class="main-nav-logo-image"
           src={Logo}
@@ -15,7 +15,7 @@ const Nav = () => {
         <h1 class="sr-only">Argent Bank</h1>
       </Link>
       <div>
-        <Link class="main-nav-item" href="./sign-in.html">
+        <Link class="main-nav-item" to="/Login">
           <i class="fa fa-user-circle"></i>
           Sign In
         </Link>
