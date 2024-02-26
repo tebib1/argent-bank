@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 
 const Main = () => {
     return (
@@ -20,7 +19,7 @@ const Main = () => {
                             <input type="checkbox" id="remember-me" /><label for="remember-me">  Remember me</label>  
                         </div>
                         
-                        <Link to="./User"><button class="sign-in-button">Sign In</button></Link>
+                        <button type="submit" class="sign-in-button">Sign In</button>
                         
                       
                     </form>

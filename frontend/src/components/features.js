@@ -1,9 +1,10 @@
-import React from 'react';
 
-const Item = ({ imgSrc, title, text }) => (
-  <div className="item">
-    <img src={imgSrc} alt={title} />
-    <h2>{title}</h2>
+ const Features = ({ imgSrc, title, text }) => (
+  <div className="feature-item">
+    <img class="feature-icon" src={imgSrc} alt={title} />
+    <h2 class="feature-item-title">{title}</h2>
     <p>{text}</p>
   </div>
 );
+
+export default Features
